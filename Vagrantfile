@@ -5,10 +5,10 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "geerlingguy/ubuntu2004"
-  config.vm.network :private_network, ip: "192.168.33.39"
+  config.vm.network :private_network, ip: "192.168.56.2"
   config.ssh.insert_key = false
 
-  config.vm.hostname = "docker-flask.test"
+  config.vm.hostname = "projet.test"
   config.vm.provider :virtualbox do |v|
     v.customize ["modifyvm", :id, "--name", "docker.test"]
     v.customize ["modifyvm", :id, "--memory", 1024]
