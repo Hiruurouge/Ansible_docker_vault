@@ -36,6 +36,6 @@
     ports: "3306:3306"
     env:
       MYSQL_ROOT_PASSWORD: "{{MYSQL_ROOT_PASSWORD}}"
-      MYSQL_DATABASE:  'flask'
-      MYSQL_USER: flask
+      MYSQL_DATABASE: "{{SQL_DB}}"
+      MYSQL_USER: "{{SQL_USER}}"
       MYSQL_PASSWORD: "{{ MYSQL_PASSWORD }}"

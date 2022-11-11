@@ -22,9 +22,9 @@ def test():
         pass
 
     if mysql_result:
-        result = Markup('<span style="color: green;">PASS</span>')
+        result = Markup('<span style="color: green;">La base de donnée est link, Vault fonctionne</span>')
     else:
-        result = Markup('<span style="color: red;">FAIL</span>')
+        result = Markup('<span style="color: red;">Vault ne fonctionne pas</span>')
     return render_template('index.html', result=result)
 
 if __name__ == "__main__":
