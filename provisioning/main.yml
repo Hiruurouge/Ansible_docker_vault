@@ -3,6 +3,8 @@
   become: true 
   vars:
     build_root: /vagrant/provisioning
+  vars_files:
+    - ../group_vars/all/password
   pre_tasks:
     - name: Update apt cache if needed.
       apt: update_cache=yes cache_valid_time=3600

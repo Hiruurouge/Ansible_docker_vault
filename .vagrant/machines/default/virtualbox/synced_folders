@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/media/cytech/TEST VAGRANT/Ansible_docker_vault","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/cytech/Desktop/Ansible_docker_vault","disabled":false,"__vagrantfile":true}}}
